@@ -22,7 +22,31 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest //Çok pil harcar
         locationManager.requestWhenInUseAuthorization() //gerekli kullanımda takip eder
-        locationManager.startUpdatingLocation() 
+        locationManager.startUpdatingLocation()
+        
+        
+        
+        let recognizer = UILongPressGestureRecognizer(target: self, action: #selector(ViewController.chooseLocation(gesturRecognizer:)))
+        recognizer.minimumPressDuration = 3
+        myMap.addGestureRecognizer(recognizer)
+        
+    }
+    
+    @objc func chooseLocation(gesturRecognizer: UILongPressGestureRecognizer){
+        //burda pin yaratma işlemi yaparız ve bunun adı anotation denir.
+        
+        if gesturRecognizer.state == UIGestureRecognizerState.began{
+            let touchPoint = gesturRecognizer.location(in: self.myMap)
+            let choosenCoordinates = self.myMap.convert(touchPoint, toCoordinateFrom: self.myMap)
+            let annotation = MKPointAnnotation()
+            annotation.coordinate = choosenCoordinates
+            annotation.title = "New Annatation"
+            annotation.subtitle = "Favorite Place"
+            self.myMap.addAnnotation(annotation)
+            
+            
+        }
+        
         
     }
     
