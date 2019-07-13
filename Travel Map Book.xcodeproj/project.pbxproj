@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		06FCBF2F229AE5D500B36EB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FCBF2E229AE5D500B36EB5 /* AppDelegate.swift */; };
-		06FCBF31229AE5D500B36EB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FCBF30229AE5D500B36EB5 /* ViewController.swift */; };
+		06FCBF31229AE5D500B36EB5 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FCBF30229AE5D500B36EB5 /* MapVC.swift */; };
 		06FCBF34229AE5D500B36EB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FCBF32229AE5D500B36EB5 /* Main.storyboard */; };
 		06FCBF37229AE5D500B36EB5 /* Travel_Map_Book.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06FCBF35229AE5D500B36EB5 /* Travel_Map_Book.xcdatamodeld */; };
 		06FCBF39229AE5D900B36EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06FCBF38229AE5D900B36EB5 /* Assets.xcassets */; };
 		06FCBF3C229AE5D900B36EB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FCBF3A229AE5D900B36EB5 /* LaunchScreen.storyboard */; };
+		06FCBF45229F496200B36EB5 /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FCBF44229F496200B36EB5 /* TableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06FCBF2B229AE5D500B36EB5 /* Travel Map Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel Map Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06FCBF2E229AE5D500B36EB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06FCBF30229AE5D500B36EB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06FCBF30229AE5D500B36EB5 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		06FCBF33229AE5D500B36EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06FCBF36229AE5D500B36EB5 /* Travel_Map_Book.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Travel_Map_Book.xcdatamodel; sourceTree = "<group>"; };
 		06FCBF38229AE5D900B36EB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06FCBF3B229AE5D900B36EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06FCBF3D229AE5D900B36EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06FCBF44229F496200B36EB5 /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				06FCBF2E229AE5D500B36EB5 /* AppDelegate.swift */,
-				06FCBF30229AE5D500B36EB5 /* ViewController.swift */,
+				06FCBF30229AE5D500B36EB5 /* MapVC.swift */,
+				06FCBF44229F496200B36EB5 /* TableVC.swift */,
 				06FCBF32229AE5D500B36EB5 /* Main.storyboard */,
 				06FCBF38229AE5D900B36EB5 /* Assets.xcassets */,
 				06FCBF3A229AE5D900B36EB5 /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06FCBF31229AE5D500B36EB5 /* ViewController.swift in Sources */,
+				06FCBF31229AE5D500B36EB5 /* MapVC.swift in Sources */,
+				06FCBF45229F496200B36EB5 /* TableVC.swift in Sources */,
 				06FCBF37229AE5D500B36EB5 /* Travel_Map_Book.xcdatamodeld in Sources */,
 				06FCBF2F229AE5D500B36EB5 /* AppDelegate.swift in Sources */,
 			);
